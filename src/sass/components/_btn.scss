@@ -1,0 +1,23 @@
+.btn {
+    background: $bgBtn;
+    color: $colorBtn;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 13px 53px 13px 53px;
+    border-radius: 10px;
+    &:focus {
+        outline: none;
+    }
+    &_ration {
+        padding: 8px 36px 8px 36px;
+    }
+    &_delivery {
+        margin-top: 31px;
+        padding: 8px 26px 9px 26px;
+    }
+    &_close {
+        margin: 40px auto;
+        display: block;
+    }
+}

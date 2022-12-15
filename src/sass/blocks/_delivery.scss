@@ -1,0 +1,23 @@
+.delivery {
+    margin-top: 92px;
+    margin-bottom: 104px;
+    &-wrapper {
+        border: 1px solid #E4E4E4;
+        border-radius: 14px;
+        min-height: 466px;
+    }
+    &-terms {
+        padding: 107px 94px 90px 70px;
+        border-right: 1px solid #E4E4E4;
+    }
+    &-map {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    @media(max-width: 975px) {
+        &-terms {
+            padding: 107px 15px 90px 15px;
+            border-right: 1px solid #E4E4E4;
+        }
+    }
+}
